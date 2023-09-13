@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 	  <PackageTags>rocket;rocket chat;chat;</PackageTags>
 	  <PackAsTool>False</PackAsTool>
+	  <PackageReadmeFile>README.MD</PackageReadmeFile>
 	  <RepositoryUrl>https://github.com/haqoff/Rocket.Chat.Haqon</RepositoryUrl>
 	  <Copyright>HAQON;Kirill Sizov;</Copyright>
 	  <Title>Rocket.Chat.Haqon</Title>
@@ -13,7 +14,12 @@
 	  <Authors>haQon</Authors>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
-
+	<ItemGroup>
+		<None Include="..\..\README.MD">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis" Version="4.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
