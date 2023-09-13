@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,7 +10,7 @@
 	  <Title>Rocket.Chat.Haqon</Title>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <Version>0.4.0-rc</Version>
+	  <Version>0.4.1-rc</Version>
 	  <Authors>haQon</Authors>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
@@ -21,13 +21,11 @@
 		</None>
 	</ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="NLog" Version="5.1.0" />
     <PackageReference Include="Otp.NET" Version="1.2.2" />
     <PackageReference Include="RestSharp" Version="108.0.3" />
     <PackageReference Include="WebSocket4Net" Version="0.15.2" />
-    <PackageReference Include="WebsocketSharp.Standard2" Version="2022.4.16.1520" />
   </ItemGroup>
 
 </Project>
